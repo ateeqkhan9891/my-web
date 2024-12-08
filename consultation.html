@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional hair transplant & plastic surgery services. Book a consultation today!">
+  <meta name="keywords" content="plastic surgery, hair transplant, cosmetic surgery, reconstructive surgeon, consultation">
+  <meta name="author" content="Your Name">
+  <title>Consultation | Hair Transplant & Cosmetic Surgeon</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Font Awesome for Social Media Icons -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html"><img src="images/logo.jpg" alt="Logo" /></a>
+            <span>Dr. Karamat Miami</span>
+          </div>
+          <nav class="nav">
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About </a></li>
+              <li><a href="procedure.html">procedures</a></li>
+              <li><a href="procedure.html">Before & After</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact </a></li>
+            </ul>
+            <button class="btn-consultation">Book Consultation</button>
+          </nav>
+          <button class="toggle-btn">
+            ☰
+          </button>
+        </div>
+      </header>
+
+
+
+     
+      
+      <header class="custom-hero-section">
+        <div class="custom-hero-content">
+          <h1>Schedule Your Consultation</h1>
+          <p>Take the first step toward achieving your aesthetic goals with our expert team.</p>
+        </div>
+      </header>
+    
+      <!-- Main Content -->
+      <main>
+        <section class="custom-form-section">
+          <div class="custom-form-container">
+            <form action="/submit-form" method="POST" class="custom-consultation-form">
+              <h2>Book Your Consultation Now</h2>
+              <p>Fill out the form below to schedule a meeting with our experienced surgeons.</p>
+              
+              <!-- Name Field -->
+              <label for="custom-name">Full Name:</label>
+              <input type="text" id="custom-name" name="name" placeholder="Enter your full name" required>
+              
+              <!-- Email Field -->
+              <label for="custom-email">Email Address:</label>
+              <input type="email" id="custom-email" name="email" placeholder="Enter your email" required>
+              
+              <!-- Phone Number -->
+              <label for="custom-phone">Phone Number:</label>
+              <input type="tel" id="custom-phone" name="phone" placeholder="Enter your phone number" required>
+              
+              <!-- Preferred Date -->
+              <label for="custom-date">Preferred Date:</label>
+              <input type="date" id="custom-date" name="date" required>
+              
+              <!-- Message -->
+              <label for="custom-message">How Can We Help You?</label>
+              <textarea id="custom-message" name="message" placeholder="Tell us about your needs..." required></textarea>
+              
+              <!-- Submit Button -->
+              <button type="submit" class="custom-submit-button">Schedule Now</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    
+      <!-- Footer Section -->
+      <footer class="custom-footer-section">
+        <p>&copy; 2024 Dr Karamat Ullah Miami. All Rights Reserved.</p>
+      </footer>
+      
+
+
+
+
+
+
+
+<!-- Bottum jsss -->
+
+
+
+      <!-- TOOOGLE BUTOON -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+  const toggleButton = document.querySelector('.toggle-btn');
+  const nav = document.querySelector('.nav');
+
+  toggleButton.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+});
+  </script>
+</body>
+</html>
